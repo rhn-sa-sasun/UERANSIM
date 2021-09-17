@@ -5,14 +5,14 @@ nci: '0x000000010'  # NR Cell Identity (36-bit)
 idLength: 32        # NR gNB ID length in bits [22...32]
 tac: 70              # Tracking Area Code
 
-linkIp: 10.131.1.144  # gNB's local IP address for Radio Link Simulation (Usually same with local IP)
-ngapIp: 10.131.1.144   # gNB's local IP address for N2 Interface (Usually same with local IP)
-gtpIp: 10.131.1.144    # gNB's local IP address for N3 Interface (Usually same with local IP)
+linkIp: 172.21.103.53  # gNB's local IP address for Radio Link Simulation (Usually same with local IP)
+ngapIp: 172.21.103.53   # gNB's local IP address for N2 Interface (Usually same with local IP)
+gtpIp: 172.21.103.53    # gNB's local IP address for N3 Interface (Usually same with local IP)
 
 # List of AMF address information
 amfConfigs:
-  - address: 172.30.210.131
-    port: 38412
+  - address: 172.21.103.59
+    port: 30412
 
 # List of supported S-NSSAIs by this gNB
 slices:
