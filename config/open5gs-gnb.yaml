@@ -10,8 +10,9 @@ ngapIp: 172.21.103.53   # gNB's local IP address for N2 Interface (Usually same 
 gtpIp: 172.21.103.53    # gNB's local IP address for N3 Interface (Usually same with local IP)
 
 # List of AMF address information
+# This needs to connect to the NodePort that running UPF
 amfConfigs:
-  - address: 172.21.103.59
+  - address: 172.21.103.60
     port: 30412
 
 # List of supported S-NSSAIs by this gNB
